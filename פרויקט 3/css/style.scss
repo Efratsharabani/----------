@@ -1,0 +1,436 @@
+
+@import'./maps';
+
+body {
+    margin: 0;
+    direction: rtl;
+    font-family: "Heebo", sans-serif;
+}
+
+header {
+    height: 70px;
+    width: 100%;
+    box-shadow: 0px 1px 5px 1px rgb(201, 199, 199);
+    position: fixed;
+    background-color: white;
+    opacity: 90%;
+    border-top: 3px solid color(light-blue);
+    z-index: 2;
+}
+
+.efrat {
+    display: flex;
+    margin-right: 100px;
+}
+
+#efrat-name {
+    font-family: "Satisfy", cursive;
+    color:color(b-lack);
+    font-size: size(m);
+    padding-top: 20px;
+}
+
+#efrat-logo {
+    width: 45px;
+    height: 43px;
+    padding: 10px;
+    border-radius: 50%;
+    margin-top: 3px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero-section {
+    height: 480px;
+    background-position: center center;
+background-size: cover;
+position: relative;
+
+}
+
+#title-hero-section {
+    font-size: size(xl);
+    color:color(b-lack);
+    text-align: center;
+    padding-top: 150px;
+    font-weight: weight(bold);
+    position: relative;
+}
+
+#p-hero-section {
+    height: 59px;
+    width: 844px;
+    margin: auto;
+    text-align: center;
+    font-size: size(m);
+    font-weight: weight(regular);
+    position: relative;
+}
+.bg-hero{
+    background-color: color(light-blue);
+    height: 480px;
+    width: 100%;
+    opacity: 0.32;
+    position: absolute;
+}
+
+#buttons {
+    margin: 25px auto 0 auto;
+    height: 70px;
+    width: 300px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.button-hero-section {
+    height: 50px;
+    width: 153px;
+    background-color:color(light-blue);
+    border-radius: 25px;
+    font-size: size(xxs);
+    border: none;
+    font-weight: weight(medium);
+}
+
+.button-hero-section:hover {
+    transform: scale(0.9, 0.9);
+    transition: 0.3s;
+}
+
+.button-hero-section>a {
+    color: color(b-rown);
+}
+
+.logo-container {
+    width: 100%;
+    height: 120px;
+    text-align: center;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color:color(b-eig);
+}
+
+.logo {
+    display: inline-block;
+}
+
+.logo:hover {
+    transform: scale(1.2, 1.2);
+    transition: 0.5s;
+}
+
+#Node {
+    margin-left: 15px;
+    height: 100px;
+    padding-top: 10px;
+}
+
+main {
+    height: 1015px;
+    width: 100%;
+    background-color: color(w-hite);
+}
+
+#main-image {
+    width: 75%;
+    height: 630px;
+    margin: 100px 12%;
+    box-shadow: 0px 0px 48px 0px rgba(0, 0, 0, 0.5);
+}
+
+
+footer {
+    height: 36px;
+    display: flex;
+    background-color:color( "b-lack");
+}
+
+#end {
+    padding: 7px 20px 10px 20px;
+    display: flex;
+    width: 100%;
+    font-size: size(xxs);
+    color: color(light-blue);
+    border-bottom: 4px solid  color(light-blue);
+}
+
+#end-p {
+    width: 70%;
+}
+
+#end-name {
+    width: 30%;
+    direction: ltr;
+}
+
+.full-screen {
+    display: flex;
+}
+
+.part1 {
+    width: 45%;
+    border-top: 18px solid;
+    border-image: linear-gradient(to left, color(orang-e) 50%, transparent 50%) 100% 1;
+}
+
+#tell {
+    height: 530px;
+    width: 370px;
+    margin-top: 60px;
+    margin-right: 170px;
+}
+
+.part2 {
+    width: 55%;
+    height: 800px;
+    position: relative;
+    border-bottom: 18px solid color(orang-e);
+}
+
+#style-icon {
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+.body-icon {
+    width: 60px;
+    height: 60px;
+    background-color:color(orang-e);
+    border-radius: 50%;
+    margin: 20px;
+}
+
+.icon {
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+}
+
+.small-tell {
+    position: absolute;
+    left: 10px;
+}
+
+
+h1 {
+    color: color(orang-e);
+    font-size: 66px;
+    font-weight: weight(bold);
+    font-family: "Heebo", sans-serif;
+    margin-bottom: 20px;
+    padding-top: 40px;
+}
+
+#p-part2 {
+    font-size:size(m);
+    color: color(blu-e);
+    font-weight: weight(regular);
+}
+
+label {
+    font-size: size(xs);
+    color:color(blu-e);
+    font-weight: weight(medium);
+
+}
+
+input {
+    border: none;
+    border-bottom: 4px solid color( #FDBD03);
+    background-color:color(b-input);
+    height: 50px;
+}
+
+.input1 {
+    width: 350px;
+}
+
+#input2 {
+    height: 100px;
+    width: 730px;
+}
+
+#input3 {
+    background-color:color( #FDBD03);
+    color:color( b-lack);
+    font-size: size(lm);
+    font-weight: weight(medium);
+    width: 150px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    #title-hero-section {
+        padding-top: 130px;
+    }
+
+    #p-hero-section {
+        width: 623px;
+        font-size: size(s);
+        margin-top: 15px;
+    }
+
+    #buttons {
+        margin: 60px auto;
+    }
+
+    .efrat {
+        margin-right: 0;
+    }
+
+    main {
+        height: 750px;
+    }
+
+    #main-image {
+        width: 720px;
+        height: 440px;
+        margin: 120px 15px;
+    }
+
+    .full-screen {
+        flex-direction: column;
+    }
+
+    .part1 {
+        width: 100%;
+        height: 200px;
+    }
+
+    #tell {
+        height: 150px;
+        width: 100px;
+        margin-top: 50px;
+        margin-right: 276PX;
+    }
+
+    .part2 {
+        width: 100%;
+    }
+
+    .small-tell {
+        display: none;
+    }
+
+    h1 {
+        text-align: center;
+        padding-top: 0;
+    }
+
+    #p-part2 {
+        text-align: center;
+    }
+    .input1{
+        width: 500px;
+        margin-right: 125px;
+        margin-bottom: 20px;
+    }
+    label {
+        font-size: size(xxs);
+        margin-right: 125px;}
+        #input2 {
+            width: 500px;
+            margin-right: 125px;}
+
+#input3 {
+    font-size: size(s);
+    width: 500px;
+    margin-right: 125px;}
+    .icon {
+        left: 125px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    #title-hero-section {
+        font-size: size(l);
+    }
+
+    #p-hero-section {
+        width: 330px;
+        font-size: size(xs);
+        height: 73px;
+    }
+
+    #buttons {
+        width: 267px;
+    }
+
+    .efrat {
+        margin-right: 0;
+    }
+    #efrat-name {
+        display: none;}
+
+    main {
+        height: 515px;
+    }
+
+    #main-image {
+        width: 363px;
+        height: 204px;
+        margin: 155px 10px;
+    }
+
+    #tell {
+        margin-right: 134px;
+    }
+
+    h1 {
+        font-size: size(xm);
+    }
+
+    #p-part2 {
+        font-size: size(xs);
+        padding-bottom: 20px;
+    }
+    .input1 {
+        width: 300px;
+        margin-right: 37px;
+    }
+
+    label {
+        margin-right: 37px;
+        font-size: 10px;
+    }
+
+    #input2 {
+        width: 300px;
+        margin-right: 37px;
+    }
+
+    #input3 {
+        font-size: size(xs);
+        width: 300px;
+        margin-right: 37px;
+    }
+
+    .icon {
+        left: 60px;
+    }
+
+    .body-icon {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px 15px 10px;
+    }
+
+    .email {
+        display: none;
+    }
+
+    #style-icon {
+        height: 25px;
+        width: 25px;
+        margin-right: 12px;
+        margin-top: 12px;
+    }
+}

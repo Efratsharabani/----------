@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&family=Heebo:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    direction: rtl;
+    font-family: "Assistant", sans-serif;
+    padding: 0;
+}
+
+.part1 {
+    background-size: cover;
+    background-position: center;
+    height: 740px;
+    width: 100%;
+    margin-bottom: 83px;
+}
+
+h1 {
+    color: #D3E10E;
+    font-size: 86px;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 23px;
+    padding-top: 280px;
+}
+
+p {
+    color: #F9F9F9;
+    font-size: 20px;
+    text-align: center;
+}
+
+.part2 {
+    height: 332px;
+    display: inline-block;
+    margin-right: 11.5%;
+
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    background: #F6F6F6;
+    border: none;
+    border-bottom: 4px solid #D3E10E;
+    height: 50px;
+    width: 417px;
+    margin-right: 37px;
+
+}
+
+label {
+    color: #011560;
+    font-size: 16px;
+    font-weight: bold;
+    margin-right: 40px;
+}
+
+#button3 {
+    color: #011560;
+    background-color: #D3E10E;
+    width: 166px;
+    font-size: 16px;
+    margin-right: 60px;
+    cursor: pointer;
+    height: 55px;
+
+
+}
+
+@media screen and (max-width:768px) {
+    .part1 {
+        height: 600px;
+    }
+
+    h1 {
+        font-size: 64px;
+        padding-top: 200px;
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .part2 {
+        margin-right: 2%;
+    }
+
+    form {
+        display: block;
+    }
+
+    input {
+        margin-bottom: 15px;
+        width: 650px;
+    }
+
+    #button3 {
+        width: 650px;
+        margin-right: 39px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    .part1 {
+        height: 300px;
+    }
+
+    h1 {
+        font-size: 35px;
+        padding-top: 83px;
+    }
+
+    p {
+        font-size: 18px;
+    }
+
+    label{
+        margin-right: 8px;
+    }
+
+    input {
+        width: 364px;
+        margin-right: 8px;
+        height: 34px;
+    }
+
+
+    #button3 {
+        width: 367px;
+        margin-right: 10px;
+        height: 34px;
+    }
+
+}

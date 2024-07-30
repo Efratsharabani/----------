@@ -1,0 +1,41 @@
+$font-size: (
+    "xxs" :14px,
+    "xs":16px,
+    "s":18px,
+    "m" :20px,
+    "lm":22px,
+    "xm":40px,
+    "l":50px,
+    "xl": 70px
+);
+
+@function size($size-name) {
+    @return map-get($font-size, $size-name)
+}
+
+
+$font-weight :("regular": 400,
+    "medium": bold,
+    "bold": 900
+    );
+
+
+@function weight($weight-name) {
+    @return map-get($font-weight, $weight-name)
+}
+
+$color: (
+    "b-lack": #000000,
+    "light-blue":#F5AAB7,
+    "w-hite": #EBFEFF,
+    "b-eig": #E7E5E5,
+    "b-rown": #2C2C2C,
+    "whit-e":#FFFFFF,
+    "orang-e": #FDBD03,
+    "blu-e": #020253,
+    "b-input": #E5EEFF
+);
+
+@function color($tbcolor) {
+    @return map-get($color, $tbcolor)
+}

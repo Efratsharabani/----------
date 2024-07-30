@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+body {
+    margin: 0;
+    direction: rtl;
+    font-family: "Heebo", sans-serif;
+}
+#landing1 {
+    text-align: center;
+    height: 1080px;
+    width: 100%;
+    background: -webkit-linear-gradient(#281EFF, #2DFF8C);
+    background: -o-linear-gradient(#281EFF, #2DFF8C);
+    background: -moz-linear-gradient(#281EFF, #2DFF8C);
+    background: linear-gradient(#281EFF, #2DFF8C);
+}
+
+h1 {
+    color: #FFFFFF;
+    font-size: 160px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Satisfy", cursive;
+    margin: 0;
+  padding-top: 337px;
+    text-shadow: 0px 0px 36px #00000087;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+    margin: 0;
+}
+
+#p-landing {
+    color: #F9F9F9;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    font-family: "Varela Round", sans-serif;
+}
+
+form {
+    display: inline-block;
+}
+
+input {
+    background: #f6f6f618;
+    border: 2px solid #FFFFFF;
+    height: 50px;
+    width: 417px;
+    padding: 0;
+}
+
+label {
+    color: #F9F9F9;
+    font-size: 16px;
+    font-family: "Varela Round", sans-serif;
+}
+
+#label1 {
+    margin-left: 398px;
+}
+
+#label2 {
+    margin-left: 600px;
+}
+
+#button3 {
+    color: #1C1C1C;
+    background: #FFFFFF;
+    width: 206px;
+    font-family: 'Varela Round', sans-serif;
+    height: 53px;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+    h1 {
+        font-size: 125px;
+       padding-top: 25%;
+    }
+
+    h3 {
+        font-size: 36px;
+    }
+
+    #p-landing {
+        font-size: 18px;
+    }
+
+    form {
+        display: block;
+    }
+
+    input {
+        width: 85%;
+    }
+
+    #label1 {
+        margin-left: 82.5%;
+    }
+
+    #label2 {
+        margin-left: 80%;
+    }
+
+    #button3 {
+        color: #2823FD;
+        margin: 30px 0;
+        width: 85.5%;
+    }
+}
+@media screen and (max-width:400px) {
+    #landing1 {
+        height: 737px;
+    }
+
+    h1 {
+        font-size: 75px;
+    }
+    #p-landing {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 21px;
+    }
+    #label1{
+       margin-left: 81%;
+    }
+    #label2 {
+        margin-left: 76%;}
+}
